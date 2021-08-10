@@ -131,6 +131,8 @@
         <interface>
             <name>IMapper</name>
             <instance>default</instance>
+        <fqname>@3.0::IMapper/default</fqname>
+        <fqname>@4.0::IMapper/default</fqname>        
         </interface>
     </hal>
     <hal format="hidl">
