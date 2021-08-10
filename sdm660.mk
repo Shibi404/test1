@@ -440,7 +440,9 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.basic
+    android.hardware.usb@1.0-service.basic \
+    android.hardware.usb.gadget@1.0-impl \
+    android.hardware.usb.gadget@1.0-service
 
 # Verity
 PRODUCT_SYSTEM_VERITY_PARTITION=/dev/block/bootdevice/by-name/system
